@@ -1,5 +1,5 @@
 var scoreval =0;
-var setTimer = 5;
+var setTimer = 60;
 var randomHit;
 function makeBubble(){
     var clutter = ""
