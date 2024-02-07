@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+}
+.panel{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.ptop{
+    padding: 0 30%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(38, 100, 38);
+    color: white;
+
+}
+.elem{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+
+    
+}
+
+#box{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.bubble{
+    height: 50px;
+    width: 50px;
+   background-color: green;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 700;
+  
+
+}
+.bubble:hover{
+    background-color: rgb(3, 73, 3);
+    cursor: pointer;
+}
+
+.pbtm h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+    padding: 0 120px;
+    color: white;
+}
